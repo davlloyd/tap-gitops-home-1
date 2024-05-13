@@ -29,6 +29,7 @@ spec:
         conventions.carto.run/applied-conventions: |-
           spring-boot-convention/auto-configure-actuators-check
           spring-boot-convention/is-native-app-check
+          spring-boot-convention/is-prometheus-enabled-check
           spring-boot-convention/app-live-view-appflavour-check
         developer.conventions/target-containers: workload
       labels:
@@ -44,7 +45,7 @@ spec:
       - env:
         - name: GOOGLE_API_KEY
           value: AIzaSyClGDVij1cDFxSg9T034eayd8cZgnljRYA
-        image: harbor.home.tanzu.rocks/tap/supply-chain/surfersweb-alpha@sha256:e4a34dc5b5eaba08edad430ddc5178169a0ddfe220f0263ecbfd4921983d4ddd
+        image: harbor.home.tanzu.rocks/tap/supply-chain/surfersweb-alpha@sha256:549d306f12fab5ced33a94f8fb9b70c4144e637113484df1bc2b229c06e11414
         name: workload
         resources: {}
         securityContext:
