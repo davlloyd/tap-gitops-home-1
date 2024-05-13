@@ -32,6 +32,7 @@ spec:
         conventions.carto.run/applied-conventions: |-
           spring-boot-convention/auto-configure-actuators-check
           spring-boot-convention/is-native-app-check
+          spring-boot-convention/is-prometheus-enabled-check
           spring-boot-convention/app-live-view-appflavour-check
         developer.conventions/target-containers: workload
       labels:
@@ -47,7 +48,7 @@ spec:
         is-accelerator: "true"
     spec:
       containers:
-      - image: harbor.home.tanzu.rocks/tap/supply-chain/surfersapi-alpha@sha256:560437d68a8cbd29f04f2bf105c6bc8f6b8c599a050d5a36656796ed8082b1c1
+      - image: harbor.home.tanzu.rocks/tap/supply-chain/surfersapi-alpha@sha256:ae157139b8babdad178924092c835c5daf9032c163c0bddb69462e706444573e
         name: workload
         resources: {}
         securityContext:
