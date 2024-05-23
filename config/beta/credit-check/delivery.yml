@@ -42,7 +42,7 @@ spec:
         carto.run/workload-name: credit-check
     spec:
       containers:
-      - image: harbor.home.tanzu.rocks/tap/supply-chain/credit-check-beta@sha256:b30e82e699c054aa9efaba7951b5470065bbb1cb7703e3b40fdbabcc85d5327e
+      - image: harbor.home.tanzu.rocks/tap/supply-chain/credit-check-beta@sha256:5f4a1e418d1928f7e14c3e1178ae94ccd39ad655f004e7a24880b469faf7b76a
         name: workload
         resources: {}
         securityContext:
