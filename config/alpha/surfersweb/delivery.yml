@@ -47,7 +47,7 @@ spec:
       - env:
         - name: GOOGLE_API_KEY
           value: AIzaSyClGDVij1cDFxSg9T034eayd8cZgnljRYA
-        image: harbor.home.tanzu.rocks/tap/supply-chain/surfersweb-alpha@sha256:2f31b32ac483f2398b318ffa11732d940f1f242098e59eae38a518a41d935d19
+        image: harbor.home.tanzu.rocks/tap/supply-chain/surfersweb-alpha@sha256:cb0c27eff4076e6ba1ba3f67ce100ddbde5d7a30fb498ad98df8f97e9a01a52a
         name: workload
         resources: {}
         securityContext:
