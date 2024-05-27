@@ -26,7 +26,7 @@ metadata:
 spec:
   type: openapi
   description: Surferslookout forecast api
-  system: surferslookout
+  system: surfers-system
   owner: group:surfers-crew
   location:
     apiSpec:
