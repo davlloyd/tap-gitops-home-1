@@ -13,8 +13,8 @@ metadata:
     apps.tanzu.vmware.com/language: python
     apps.tanzu.vmware.com/workload-type: web
     component: backend
+    deployment-model: blue-green
     is-accelerator: "true"
-    supplychain: full
     app.kubernetes.io/component: run
     carto.run/workload-name: surfersapi
 spec:
@@ -44,11 +44,11 @@ spec:
         apps.tanzu.vmware.com/workload-type: web
         carto.run/workload-name: surfersapi
         component: backend
+        deployment-model: blue-green
         is-accelerator: "true"
-        supplychain: full
     spec:
       containers:
-      - image: harbor.home.tanzu.rocks/tap/supply-chain/surfersapi-alpha@sha256:1b1077d01dcfc8003fba065107f595c97c2532c7429e876a1d6f2325ff40dbbc
+      - image: harbor.home.tanzu.rocks/tap/supply-chain/surfersapi-alpha@sha256:142983be36bfa6fb5e3b5cc105cbe42759f167e3034bfc97457b99967fbcf53b
         name: workload
         resources: {}
         securityContext:
