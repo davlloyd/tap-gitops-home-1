@@ -48,7 +48,7 @@ spec:
         is-accelerator: "true"
     spec:
       containers:
-      - image: harbor.home.tanzu.rocks/tap/supply-chain/surfersapi-alpha@sha256:216c384496fb8fa7307233bbead708247b5a550338746b7de7e8c308b3b5ac48
+      - image: harbor.home.tanzu.rocks/tap/supply-chain/surfersapi-alpha@sha256:39469e2d25b08b32fe8b158d00e16c0986e3f81186511e49030d11551192dd12
         name: workload
         resources: {}
         securityContext:
