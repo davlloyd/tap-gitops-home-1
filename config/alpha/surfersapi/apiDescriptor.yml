@@ -17,8 +17,8 @@ metadata:
     apps.tanzu.vmware.com/language: python
     apps.tanzu.vmware.com/workload-type: web
     component: backend
-    deployment-model: blue-green
     is-accelerator: "true"
+    supplychain: full
     app.kubernetes.io/component: run
     carto.run/workload-name: surfersapi
 spec:
